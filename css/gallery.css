@@ -1,0 +1,36 @@
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  padding: 8rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.doc-title {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.first {
+  border-right: 2px solid var(--primary-color);
+}
+
+.center {
+  text-align: center;
+}
+
+.second-inner {
+  padding-left: 4rem;
+}
+
+.img {
+  max-width: 15rem;
+  height: 15rem;
+  border: 2px solid var(--primary-color);
+}

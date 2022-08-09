@@ -1,0 +1,84 @@
+.main-content {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.bg-image {
+  position: absolute;
+  background-image: url('../images/LATIHAN.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 45rem;
+  bottom: -10rem;
+  width: 100%; 
+  height: 100%;
+  z-index: -10;
+}
+
+.welcome-card {
+  margin-top: 7rem;
+  position: relative;
+  padding: 0 4rem;
+  max-width: 50rem;
+  height: 20rem;
+  border-left: 2px solid var(--primary-color);
+}
+
+.welcome-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.5rem;
+  height: 3rem;
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+  background-color: var(--primary-color);
+}
+
+.welcome-info {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.welcome-text {
+  color: var(--primary-color);
+}
+
+.welcome-title {
+  text-transform: uppercase;
+  font-size: 3.2rem;
+}
+
+.welcome-text-outline {
+  color: white;
+  text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px,
+    #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+}
+
+.link-label {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+  padding-right: 4rem;
+  background-color: var(--primary-color);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.link-label-text {
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.link-label-icon {
+  color: white;
+  width: 1.2rem;
+  height: 1.2rem;
+}
