@@ -6,10 +6,10 @@
 
 .bg-image {
   position: absolute;
-  background-image: url('../images/LATIHAN.png');
+  background-image: url('../images/GAMBARBERANDA.png');
   background-size: contain;
   background-repeat: no-repeat;
-  left: 45rem;
+  left: 10rem;
   bottom: -10rem;
   width: 100%; 
   height: 100%;
