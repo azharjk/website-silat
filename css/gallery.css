@@ -2,13 +2,15 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
-  padding: 8rem;
+  /* padding: 8rem; */
+  height: 100%;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  height: 100%;
 }
 
 .doc-title {
@@ -18,7 +20,7 @@
 }
 
 .first {
-  border-right: 2px solid var(--primary-color);
+  padding: 6rem 0 0 6rem;
 }
 
 .center {
@@ -33,4 +35,10 @@
   max-width: 15rem;
   height: 15rem;
   border: 2px solid var(--primary-color);
+}
+
+.second {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
 }
